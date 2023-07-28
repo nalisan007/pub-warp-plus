@@ -22,7 +22,8 @@ print ("[+] By Navaneeth K M")
 print ("[-] My Website: https://navaneethkm.ml")
 print ("[-] TELEGRAM: navaneethkm004")
 print ("--------")
-referrer  = input("[#] Enter the User ID:")
+req_gb = input("[#] Enter Number of WARP+ GB to be Generated : ")
+referrer  = input("/n[#] Enter the User ID:")
 def progressBar():
 	animation     = ["[□□□□□□□□□□]","[■□□□□□□□□□]","[■■□□□□□□□□]", "[■■■□□□□□□□]", "[■■■■□□□□□□]", "[■■■■■□□□□□]", "[■■■■■■□□□□]", "[■■■■■■■□□□]", "[■■■■■■■■□□]", "[■■■■■■■■■□]"]
 	progress_anim = 0
@@ -82,7 +83,7 @@ def run():
 
 g = 0
 b = 0
-while True:
+while (g <= req_gb):
 	os.system('cls' if os.name == 'nt' else 'clear')
 	sys.stdout.write("\r[+] Sending request...   [□□□□□□□□□□] 0%")
 	sys.stdout.flush()
